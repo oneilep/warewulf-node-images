@@ -1,0 +1,12 @@
+Source: warewulf-dracut
+Maintainer: Eamonn O'Neil <oneilep@nih.gov>
+Section: misc
+Priority: optional
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+
+Package: warewulf-dracut
+Architecture: all
+Depends: dracut, dracut-network, curl, cpio, dmidecode, network-manager
+Description: Warewulf is a stateless and diskless provisioning system for large clusters of bare metal and/or virtual systems. 
+  This subpackage contains a dracut module that can be used to generate an initramfs that can fetch and boot a Warewulf node image from a Warewulf server.

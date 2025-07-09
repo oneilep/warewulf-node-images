@@ -1,0 +1,5 @@
+warewulf-dracut (4.6.2) noble; urgency=low
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Eamonn O'Neil <oneilep@nih.gov>  Tue, 8 Jul 2025 14:47:32 +0000
